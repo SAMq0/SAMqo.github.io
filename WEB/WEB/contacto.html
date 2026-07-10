@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Contables - (Contacto)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('imagenes/Listas/fondodeinicio.png'); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover; margin: 0; min-height: 100vh;">
+ 
+    <div class="inicio">
+        <header>
+            <div class="logo">
+                <img src="imagenes/Listas/logo.png" alt="Logo de Contables">
+                <h2>Servicios Contables</h2>
+            </div>
+
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="servicio.html">Servicios</a>
+                <a href="cliente.html">Clientes</a>
+                <a href="Sobre mi.html">Sobre mi</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <h4 align="left">Tu aliado contable</h4><br>
+        </header>
+
+        <div class="form-container">
+            <h1 align="center">Ponte en contacto con nosotros</h1>
+            
+            <p class="subtitle" align="center">
+                Por favor envíanos un mensaje utilizando el formulario de abajo explicándonos tu caso y el servicio que te gustaría contratar.
+            </p>
+
+            <form action="mailto:marcelo.r.molinas.v1@gmail.com" method="post" enctype="text/plain">
+              <input class="controls" name="nombre", type="text", id="nombre", placeholder="Nombre y Apellido", required>
+              <input class="controls" name="Telefono", type="text", id="Telefono", placeholder="Nro de telefóno", required>
+              <input class="controls" name="correo", type="email", id="correo", placeholder="Ingresar correo", required>
+              <select class="opciones" name="Servicios">
+                <option selected>Eliga el Servicio a solocitar</option>
+                <option>Servicio de Auditoria</option>
+                <option>Procedimientos Convenidos</option>
+                <option>Consultoria Empresarial</option>
+              </select>
+              <textarea name="Comentario", cols="50", rows="5",  placeholder="Escribe aquí tu caso con mas detalles"></textarea>
+              <input class="botons" name="botonenvio", type="submit", value="Enviar">
+      </body>
+</html>

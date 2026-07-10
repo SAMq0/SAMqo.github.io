@@ -1,0 +1,277 @@
+body {
+    background-color: #111827;
+    color: #F8FAFC;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(15,23,42,.95);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #D4AF37;
+}
+
+/* INICIO */
+.inicio {
+    width: 90%;
+    height: 500px;
+    max-width: 10000px;
+    margin: 30px auto;
+
+    background-color: rgba(15,23,42,.80);
+
+    border-radius: 30px;
+
+    padding: 40px;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.45);
+
+    color: white;
+
+    text-align: center;
+
+    background-image: url("fondoo.jpg");
+}
+
+/* TABLAS */
+table {
+    background-color: #1E293B;
+    width: 100%;
+    border-collapse: collapse;
+    color: #F8FAFC;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* NAV */
+nav a {
+    color: #F8FAFC;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #D4AF37;
+}
+
+nav a img {
+    width: 30px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #D4AF37;
+}
+
+footer .info {
+    font-size: 14px;
+}
+
+/* CLIENTES */
+.grid-clientes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section article {
+    text-align: center;
+    padding: 20px;
+    background: #1E293B;
+    border-radius: 15px;
+}
+
+article img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* TITULOS */
+h1 {
+    font-size: 60px;
+    color: #D4AF37;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    color: #F8FAFC;
+    font-weight: 600;
+}
+
+h3{
+    color:#CBD5E1;
+}
+
+/* IMAGENES REDONDAS */
+.img, .imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #D4AF37;
+}
+
+/* CONTENEDOR SERVICIOS */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #273549;
+}
+
+/* COLUMNAS */
+.columna1, .columna2, .columna3 {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #3F4F63;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #1E293B;
+    color: #F8FAFC;
+    transition: .3s;
+}
+
+.columna1:hover,
+.columna2:hover,
+.columna3:hover{
+    border-color:#D4AF37;
+    box-shadow:0 0 20px rgba(212,175,55,.25);
+}
+
+/* ICONOS */
+.columna1 img,
+.columna2 img,
+.columna3 img {
+    height: 100px;
+    width: 100px;
+}
+
+/* CONTENIDO */
+.contenido {
+    border: 1px solid #3F4F63;
+}
+
+.desplegable {
+    overflow: visible;
+}
+
+/* ASIDE */
+aside ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+aside a{
+    color:#D4AF37;
+}
+
+/* CLIENTES TEXTO */
+.clientes p {
+    font-size: 20px;
+    color:#CBD5E1;
+}
+
+/* FORMULARIO */
+form {
+    width: 400px;
+    background: #1E293B;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.controls {
+    width: 100%;
+    background: #273549;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #3F4F63;
+    font-size: 18px;
+    color: white;
+}
+
+.opciones {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    background:#273549;
+    color:white;
+    border:1px solid #3F4F63;
+}
+
+.botons {
+    width: 100%;
+    background: #D4AF37;
+    border: none;
+    padding: 12px;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.botons:hover{
+    background:#F4C542;
+}
+
+.form-container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 100px auto;
+
+    background-color: #1E293B;
+
+    border-radius: 30px;
+
+    padding: 40px;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.45);
+
+    color: white;
+
+    text-align: center;
+}

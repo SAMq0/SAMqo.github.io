@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Contables - (Contacto)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+            <header>
+             <div class="logo">
+                    <img src="imagenes/Listas/logo.png" alt="Logo de Contables">
+                    <h2>Servicios Contables</h2>
+             </div>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="Foro.html">Preguntas frecuentes</a>
+                </nav>
+            </header>
+            <div class="form-container">
+                <div class="infor-texto">
+                <h1 align="center">Ponte en contacto con nosotros</h1>
+                <p class="subtitle" align="center">
+                Por favor envíanos un mensaje utilizando el formulario, explicándonos tu caso y el servicio que te gustaría contratar.
+                </p>
+                </div>
+                <form class="formulario-grid" action="mailto:marcelo.r.molinas.v1@gmail.com" method="post" enctype="text/plain">
+                    <input class="controls" name="nombre", type="text", id="nombre", placeholder="Nombre y Apellido", required>
+                    <input class="controls" name="Telefono", type="text", id="Telefono", placeholder="Nro de telefóno", required>
+                    <input class="controls" name="correo", type="email", id="correo", placeholder="Ingresar correo", required>
+                    <select class="opciones" name="Servicios">
+                        <option selected>Eliga el Servicio a solocitar</option>
+                        <option>Liquidación de Impuestos</option>
+                        <option>Auditoria EE.FF</option>
+                    </select>
+                    <textarea class="mensaje" name="Comentario", cols="50", rows="5",  placeholder="Escribe aquí tu caso con mas detalles"></textarea>
+                    <input class="botons" name="botonenvio", type="submit", value="Enviar">
+                </form>
+            </div> 
+        </div>
+        <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="https://www.instagram.com/c.p.marcelor.molinas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://www.facebook.com/marcelo.molinas.10" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://api.whatsapp.com/send?phone=595971873218" class="icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="mailto:marcelo.r.molinas.v1@gmail.com" class="icon"><ion-icon name="mail-outline"></ion-icon></a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="menu-elem">
+                <a href="Foro.html" class="menu-icon">
+                    Foro
+                </a>
+            </li><li class="menu-elem">
+                <a href="contacto.html" class="menu-icon">
+                    Contacto
+                </a>
+                </a>
+            </li>
+        </ul>
+        <p class="text">@Año 2026 | Todos los derechos reservados</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
